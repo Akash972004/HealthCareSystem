@@ -36,6 +36,24 @@ String password = "your_mysql_password";
 ```
 
 ---
+✅ Extra Features Added
+Real-time data tables in all four tabs (Patients, Doctors, Appointments, Billing)
+
+Auto-refresh after inserting new data
+
+Field reset after successful data entry
+
+Single window tabbed interface using JTabbedPane
+
+Validation for foreign key constraints (e.g., booking appointment only for existing patients)
+
+MySQL error handling via message dialogs
+
+Prepared for future enhancements (Edit/Delete buttons)
+
+Fully compatible with mysql-connector-j-9.3.0.jar
+
+Lightweight and fast GUI — no external frameworks needed
 
 ### 3. Compile the Code
 
