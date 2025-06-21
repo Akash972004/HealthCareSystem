@@ -60,7 +60,7 @@ Lightweight and fast GUI — no external frameworks needed
 Open terminal in the project folder and run:
 
 ```bash
-javac -cp ".;mysql-connector-j-9.3.0.jar" *.java
+javac -cp ".:mysql-connector-j-9.3.0.jar" HealthCareGUI_Enhanced.java
 ```
 
 ---
@@ -68,7 +68,7 @@ javac -cp ".;mysql-connector-j-9.3.0.jar" *.java
 ### 4. Run the Application
 
 ```bash
-java -cp ".;mysql-connector-j-9.3.0.jar" Main
+java -cp ".:mysql-connector-j-9.3.0.jar" HealthCareGUI_Enhanced
 ```
 
 ---
